@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(255, 229, 229);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex; /* isse sari item horizontal ho jati hai */
+    align-items: center;
+    list-style-type: none;
+    height: 89px;
+    background-color: black;
+    color: white;
+  
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.brand img{
+    width: 44px;
+    padding: 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 10px;
+    background-image:url('bg.jpg');
+    background-size: 1080px;
+
+        
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#progressbar{
+    width: 800px;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.songitem img{
+    margin: 0 23px;
+    width: 43px;
+}
